@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_use_full_redaction_format
+label: 'Use full redaction format.'
+weight: 8
+is_admin: null
+permissions:
+  - 'use text format bt_full_redaction'

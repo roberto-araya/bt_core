@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_use_simple_redaction_format
+label: 'Use simple redaction format.'
+weight: 9
+is_admin: null
+permissions:
+  - 'use text format bt_simple_redaction'

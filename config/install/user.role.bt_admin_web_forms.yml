@@ -1,0 +1,25 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_admin_web_forms
+label: 'Admin web forms'
+weight: -5
+is_admin: null
+permissions:
+  - 'access webform overview'
+  - 'access webform submission log'
+  - 'administer webform element access'
+  - 'administer webform submission'
+  - 'administer webform'
+  - 'create webform'
+  - 'delete any webform'
+  - 'delete own webform'
+  - 'delete own webform submission'
+  - 'delete any webform submission'
+  - 'edit webform assets'
+  - 'edit any webform'
+  - 'edit any webform submission'
+  - 'edit own webform'
+  - 'edit own webform submission'
+  - 'view any webform submission'
+  - 'view own webform submission'

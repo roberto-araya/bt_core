@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.ipe_about_us
+  module:
+    - panels
+id: ipe_about_us-panels_variant-1
+label: 'About Us Variant 1 '
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  label: null
+  weight: 0
+  layout: one_col
+  layout_settings: {  }
+  page_title: 'About Us'
+  storage_type: page_manager
+  storage_id: ipe_about_us-panels_variant-1
+  builder: ipe
+  uuid: e449c43d-9b95-4b1b-9323-783ac3467982
+page: ipe_about_us
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

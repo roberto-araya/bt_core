@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.ipe_services
+  module:
+    - panels
+id: ipe_services-panels_variant-2
+label: 'Services Variant 2'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  label: null
+  weight: 0
+  layout: one_col
+  layout_settings: {  }
+  page_title: Services
+  storage_type: page_manager
+  storage_id: ipe_services-panels_variant-2
+  builder: ipe
+  uuid: e9745736-7e08-4487-8323-0e714b9a5869
+page: ipe_services
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

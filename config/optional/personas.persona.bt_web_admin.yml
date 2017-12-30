@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_web_admin
+label: 'Web Administrator'
+roles:
+  bt_admin_application: bt_admin_application

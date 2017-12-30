@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_admin_website_config
+label: 'Admin website configuration.'
+weight: -11
+is_admin: null
+permissions:
+  - 'administer site configuration'
+  - 'access site in maintenance mode'

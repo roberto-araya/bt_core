@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_admin_menus
+label: 'Admin menus'
+weight: -4
+is_admin: null
+permissions:
+  - 'administer menu'

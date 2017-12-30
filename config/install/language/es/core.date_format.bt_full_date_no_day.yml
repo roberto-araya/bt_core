@@ -1,0 +1,2 @@
+label: 'Fecha completa sin día'
+pattern: 'd \d\e F \d\e\l Y'

@@ -1,0 +1,20 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+id: bt_site_content
+label: 'Site Content'
+description: 'Link with site content.'
+attributes: {  }
+matchers:
+  89d56c93-ae23-4d1d-b76c-30bed0454c04:
+    uuid: 89d56c93-ae23-4d1d-b76c-30bed0454c04
+    id: 'entity:node'
+    weight: 0
+    settings:
+      result_description: ''
+      bundles:
+        bt_article: bt_article
+      group_by_bundle: false
+      include_unpublished: false

@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.ipe_contact
+  module:
+    - panels
+id: ipe_contact-panels_variant-0
+label: 'Default Contact'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  label: null
+  weight: 0
+  layout: two_col
+  layout_settings: {  }
+  page_title: Contact
+  storage_type: page_manager
+  storage_id: ipe_contact-panels_variant-0
+  builder: ipe
+  uuid: 67518117-3083-4f58-9c5a-cde86878b07a
+page: ipe_contact
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

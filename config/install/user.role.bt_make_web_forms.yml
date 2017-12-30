@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_make_web_forms
+label: 'Make web forms'
+weight: 2
+is_admin: null
+permissions:
+  - 'create webform'
+  - 'delete own webform'
+  - 'delete own webform submission'
+  - 'edit own webform'
+  - 'edit own webform submission'

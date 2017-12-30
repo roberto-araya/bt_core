@@ -1,0 +1,28 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.bt_config_app
+  module:
+    - panels
+    - system
+id: bt_config_app-panels_variant-0
+label: 'Config App Dashboard'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  uuid: 46278fa9-7013-46f1-bd89-5c8c5df7ea89
+  label: null
+  weight: 0
+  layout: radix_phelan
+  layout_settings: {  }
+  page_title: 'Config App'
+  storage_type: page_manager
+  storage_id: bt_config_app-panels_variant-0
+  builder: ipe
+page: bt_config_app
+weight: 0
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

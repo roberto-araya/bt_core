@@ -1,0 +1,53 @@
+name: Btester Core
+description: ''
+type: module
+core: 8.x
+dependencies:
+  - block
+  - block_content
+  - cacheflush_entity
+  - ckeditor
+  - comment
+  - content_translation
+  - courier
+  - editor
+  - field
+  - field_collection
+  - field_group
+  - file
+  - flag
+  - help
+  - image
+  - language
+  - media_entity
+  - menu_link_content
+  - node
+  - page_manager
+  - panels
+  - path
+  - system
+  - taxonomy
+  - text
+  - user
+  - workbench_moderation
+  - youtube
+  - entity_reference_revisions
+  - panelizer
+  - entity_embed
+  - video_embed_wysiwyg
+  - video_embed_media
+  - video_embed_field
+  - linkit
+  - forum
+  - custom_pub
+  - pathauto
+  - tablefield
+  - field_permissions
+  - google_map_field
+  - webform
+  - radix_layouts
+  - bt_layouts
+  - crop
+  - field_layout
+version: 8.x-1.0
+package: Btester

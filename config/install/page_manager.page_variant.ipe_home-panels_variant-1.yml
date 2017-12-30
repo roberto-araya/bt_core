@@ -1,0 +1,27 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - page_manager.page.ipe_home
+  module:
+    - panels
+id: ipe_home-panels_variant-1
+label: 'Home Variante 1'
+variant: panels_variant
+variant_settings:
+  blocks: {  }
+  id: panels_variant
+  label: null
+  weight: 0
+  layout: one_col_fluidheader
+  layout_settings: {  }
+  page_title: ''
+  storage_type: page_manager
+  storage_id: ipe_home-panels_variant-1
+  builder: ipe
+  uuid: 2ae3e438-b38a-4fbd-a33c-75e3d8cdc10f
+page: ipe_home
+weight: 2
+selection_criteria: {  }
+selection_logic: and
+static_context: {  }

@@ -1,0 +1,17 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_add_forum_discussion
+label: 'Add forum discussion'
+weight: 4
+is_admin: null
+permissions:
+  - 'create forum content'
+  - 'edit own forum content'
+  - 'revert forum revisions'
+  - 'view forum revisions'
+  - 'use draft_draft transition'
+  - 'use needs_review_needs_review transition'
+  - 'use draft_needs_review transition'
+  - 'use needs_review_draft transition'
+  - 'view moderation states'

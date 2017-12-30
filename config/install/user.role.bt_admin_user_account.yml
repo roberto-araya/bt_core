@@ -1,0 +1,18 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_admin_user_account
+label: 'Admin user account'
+weight: -8
+is_admin: null
+permissions:
+  - 'administer account settings'
+  - 'administer users'
+  - 'change own username'
+  - 'select account cancellation method'
+  - 'access user profiles'
+  - 'access user contact forms'
+  - 'view user personas'
+  - 'block other users'
+  - 'change other users password'
+  - 'delete other users'

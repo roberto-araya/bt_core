@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_full_date_no_day
+label: 'Full date without day'
+locked: false
+pattern: 'd \o\f F Y'

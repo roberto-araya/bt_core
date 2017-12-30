@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: bt_categories
+description: 'Use categories to organize content in a rigid, hierarchical structure.'
+hierarchy: 0
+weight: 0

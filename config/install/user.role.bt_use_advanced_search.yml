@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_use_advanced_search
+label: 'Use advanced search'
+weight: 12
+is_admin: null
+permissions:
+  - 'use advanced search'

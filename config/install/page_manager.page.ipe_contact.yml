@@ -1,0 +1,11 @@
+langcode: en
+status: true
+dependencies: {  }
+id: ipe_contact
+label: Contact
+description: 'Website contact page.'
+use_admin_theme: false
+path: /contact
+access_logic: and
+access_conditions: {  }
+parameters: {  }

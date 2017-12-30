@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_admin_appearance
+label: 'Admin appearance'
+weight: -13
+is_admin: null
+permissions:
+  - 'administer themes'

@@ -1,0 +1,2 @@
+label: 'Fecha completa con hora'
+pattern: 'l t \d\e F  \d\e\l o \a \l\a\s H\:i'

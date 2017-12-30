@@ -1,0 +1,13 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - user
+id: app
+label: 'Root App'
+description: 'Application Dashboard'
+use_admin_theme: true
+path: /app
+access_logic: and
+access_conditions: {  }
+parameters: {  }

@@ -1,0 +1,25 @@
+langcode: es
+status: true
+dependencies:
+  config:
+    - comment.type.bt_comments
+    - field.field.comment.bt_comments.comment_body
+  module:
+    - text
+id: comment.bt_comments.default
+targetEntityType: comment
+bundle: bt_comments
+mode: default
+content:
+  comment_body:
+    type: text_default
+    weight: 1
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+  links:
+    weight: 0
+    settings: {  }
+    third_party_settings: {  }
+hidden:
+  langcode: true

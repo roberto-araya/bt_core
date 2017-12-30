@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_admin_vocabularies
+label: 'Admin vocabularies'
+weight: -2
+is_admin: null
+permissions:
+  - 'administer taxonomy'

@@ -1,0 +1,7 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_full_date_with_hour
+label: 'Full date with hour'
+locked: false
+pattern: 'l t \d\e F  \d\e\l o \a \l\a\s H\:i'

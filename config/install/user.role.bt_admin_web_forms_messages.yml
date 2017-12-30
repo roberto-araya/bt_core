@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: bt_admin_web_forms_messages
+label: 'Admin web forms messages.'
+weight: -3
+is_admin: null
+permissions: {  }
