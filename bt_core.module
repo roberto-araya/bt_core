@@ -4,34 +4,35 @@
  * Implements hook_menu_links_discovered_alter().
  */
 function bt_core_menu_links_discovered_alter(&$links) {
-    unset($links['system.admin_content']);
-    unset($links['comment.admin']);
+  unset($links['system.admin_content']);
+  unset($links['comment.admin']);
 }
 
 /**
  * Implements hook_menu_local_tasks_alter().
- *
  */
 function bt_core_menu_local_tasks_alter(&$data, $route_name) {
-    $routes = [
-        'entity.user.canonical',
-        'entity.user.edit_form',
-        'entity.user.contact_form'
-    ];
+  $routes = [
+    'entity.user.canonical',
+    'entity.user.edit_form',
+    'entity.user.contact_form',
+  ];
 
-    if (in_array($route_name,$routes)) {
-        $uid = \Drupal::request()->attributes->get('_raw_variables')->get('user');
-        $cuid = \Drupal::service('current_user')->id();
+  if (in_array($route_name, $routes)) {
+    $uid = \Drupal::request()->attributes->get('_raw_variables')->get('user');
+    $cuid = \Drupal::service('current_user')->id();
 
-        $data['tabs'][0]['entity.user.edit_form']['#weight'] = 5;
-        $data['tabs'][0]['entity.user.contact_form']['#weight'] = 4;
+    $data['tabs'][0]['entity.user.edit_form']['#weight'] = 5;
+    $data['tabs'][0]['entity.user.contact_form']['#weight'] = 4;
 
-        if ($cuid == $uid) {
-            $data['tabs'][0]['entity.user.canonical']['#link']['title'] = 'My account';
-            $data['tabs'][0]['entity.user.edit_form']['#link']['title'] = 'Edit my account';
-        }else{
-            $data['tabs'][0]['entity.user.canonical']['#link']['title'] = 'User account';
-            $data['tabs'][0]['entity.user.edit_form']['#link']['title'] = 'Edit user account';
-        }
+    if ($cuid == $uid) {
+      $data['tabs'][0]['entity.user.canonical']['#link']['title'] = 'My account';
+      $data['tabs'][0]['entity.user.edit_form']['#link']['title'] = 'Edit my account';
     }
+    else {
+      $data['tabs'][0]['entity.user.canonical']['#link']['title'] = 'User account';
+      $data['tabs'][0]['entity.user.edit_form']['#link']['title'] = 'Edit user account';
+    }
+  }
+
 }

@@ -1,5 +1,1 @@
 <?php
-
-function bt_core_install() {
-
-}

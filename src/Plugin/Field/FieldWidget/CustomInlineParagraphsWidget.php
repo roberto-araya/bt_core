@@ -2,7 +2,6 @@
 
 namespace Drupal\bt_core\Plugin\Field\FieldWidget;
 
-use Symfony\Component\Validator\ConstraintViolationInterface;
 use Drupal\paragraphs\Plugin\Field\FieldWidget\InlineParagraphsWidget;
 
 /**
@@ -31,6 +30,7 @@ class CustomInlineParagraphsWidget extends InlineParagraphsWidget {
   protected function buildButtonsAddMode() {
     $add_more_elements = parent::buildButtonsAddMode();
     unset($add_more_elements['#suffix']);
+
     return $add_more_elements;
   }
 
