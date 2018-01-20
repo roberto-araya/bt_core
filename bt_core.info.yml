@@ -11,6 +11,7 @@ dependencies:
   - drupal:comment
   - drupal:content_translation
   - drupal:editor
+  - drupal:entity_reference
   - drupal:field
   - drupal:field_layout
   - drupal:file
@@ -40,6 +41,7 @@ dependencies:
   - page_manager:page_manager
   - panelizer:panelizer
   - panels:panels
+  - paragraphs:paragraphs
   - pathauto:pathauto
   - radix_layouts:radix_layouts
   - tablefield:tablefield
