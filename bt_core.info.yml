@@ -37,7 +37,6 @@ dependencies:
   - flag:flag
   - google_map_field:google_map_field
   - linkit:linkit
-  - media_entity:media_entity
   - page_manager:page_manager
   - panelizer:panelizer
   - panels:panels
