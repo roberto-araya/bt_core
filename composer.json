@@ -36,7 +36,7 @@
     "drupal/personas": "1.x-dev",
     "drupal/fast404": "1.x-dev",
     "drupal/file_browser": "1.x-dev",
-    "drupal/entity_browser": "1.x-dev",
+    "drupal/entity_browser": "2.x-dev",
     "drupal/exclude_node_title": "1.x-dev",
     "drupal/override_node_options": "2.x-dev",
     "drupal/sapi": "2.x-dev",
