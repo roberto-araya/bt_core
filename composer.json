@@ -87,7 +87,6 @@
     "drupal/better_formats": "1.x-dev",
     "drupal/views_flipped_table": "1.x-dev",
     "drupal/fpa": "2.x-dev",
-    "drupal/entity_forms_in_blocks": "1.x-dev",
     "drupal/tablefield": "2.x-dev",
     "drupal/google_map_field": "1.x-dev",
     "drupal/webform": "5.x-dev",
