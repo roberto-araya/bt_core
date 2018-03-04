@@ -26,6 +26,7 @@ dependencies:
   - drupal:taxonomy
   - drupal:text
   - drupal:user
+  - drupal:views
   - courier:courier
   - crop:crop
   - custom_pub:custom_pub
@@ -48,6 +49,5 @@ dependencies:
   - video_embed_field:video_embed_media
   - video_embed_field:video_embed_wysiwyg
   - webform:webform
-  - workbench_moderation:workbench_moderation
   - youtube:youtube
 package: Btester

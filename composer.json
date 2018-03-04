@@ -67,7 +67,6 @@
     "drupal/responsive_menu": "2.x-dev",
     "drupal/google_analytics": "2.x-dev",
     "drupal/simple_sitemap": "2.x-dev",
-    "drupal/workbench_moderation": "1.x-dev",
     "drupal/courier": "1.x-dev",
     "drupal/rules": "3.x-dev",
     "drupal/flag": "4.x-dev",
