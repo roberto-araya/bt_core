@@ -61,7 +61,7 @@
     "drupal/services": "4.x-dev",
     "drupal/flysystem": "1.x-dev",
     "drupal/field_collection": "3.x-dev",
-    "drupal/field_group": "1.x-dev",
+    "drupal/field_group": "3.x-dev",
     "drupal/entity_print": "1.x-dev",
     "drupal/rdfui": "1.x-dev",
     "drupal/responsive_menu": "2.x-dev",
