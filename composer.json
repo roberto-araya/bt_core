@@ -98,6 +98,7 @@
     "drupal/adminimal_theme": "1.x-dev",
     "drupal/embed": "1.x-dev",
     "drupal/entity_embed": "1.x-dev",
-    "drupal/entityform_block": "1.0-alpha2"
+    "drupal/entityform_block": "1.0-alpha2",
+    "drupal/media_entity_generic": "1.x-dev"
   }
 }
