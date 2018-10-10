@@ -99,6 +99,8 @@
     "drupal/entity_embed": "1.x-dev",
     "drupal/entityform_block": "1.0-alpha2",
     "drupal/media_entity_generic": "1.x-dev",
-    "drupal/thunder_admin": "2.x"
+    "drupal/thunder_admin": "2.x",
+    "drupal/address": "1.x-dev",
+    "drupal/radix_layouts": "4.x-dev"
   }
 }
