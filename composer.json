@@ -95,7 +95,6 @@
     "drupal/computed_field": "1.x-dev",
     "drupal/amptheme": "1.x-dev",
     "drupal/rut": "1.x-dev",
-    "drupal/adminimal_theme": "1.x-dev",
     "drupal/embed": "1.x-dev",
     "drupal/entity_embed": "1.x-dev",
     "drupal/entityform_block": "1.0-alpha2",
