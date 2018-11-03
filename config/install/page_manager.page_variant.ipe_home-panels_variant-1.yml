@@ -6,7 +6,7 @@ dependencies:
   module:
     - panels
 id: ipe_home-panels_variant-1
-label: 'Home Variante 1'
+label: 'Home Variant 1'
 variant: panels_variant
 variant_settings:
   blocks: {  }
