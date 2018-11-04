@@ -13,8 +13,8 @@ variant_settings:
   id: panels_variant
   label: null
   wight: 0
-  layout: one_col_fluidheader
-  page_title: null
+  layout: radix_boxton
+  page_title: ''
   builder: ipe
   weight: 0
   layout_settings: {  }
@@ -23,6 +23,13 @@ variant_settings:
   uuid: f47b71c8-90ee-4b5c-998e-cb45432101bb
 page: ipe_home
 weight: -1
-selection_criteria: {  }
+selection_criteria:
+  -
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: language_interface
 selection_logic: and
 static_context: {  }

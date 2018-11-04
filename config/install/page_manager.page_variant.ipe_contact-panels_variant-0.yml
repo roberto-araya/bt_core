@@ -13,7 +13,7 @@ variant_settings:
   id: panels_variant
   label: null
   weight: 0
-  layout: two_col
+  layout: radix_boxton
   layout_settings: {  }
   page_title: Contact
   storage_type: page_manager
@@ -22,6 +22,13 @@ variant_settings:
   uuid: 67518117-3083-4f58-9c5a-cde86878b07a
 page: ipe_contact
 weight: 0
-selection_criteria: {  }
+selection_criteria:
+  -
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: language_interface
 selection_logic: and
 static_context: {  }

@@ -13,7 +13,7 @@ variant_settings:
   id: panels_variant
   label: null
   wight: 0
-  layout: one_col
+  layout: radix_boxton
   page_title: 'About Us'
   builder: ipe
   weight: 0
@@ -23,6 +23,13 @@ variant_settings:
   uuid: b1845cfa-d8fc-45bb-999d-2644cf2a343a
 page: ipe_about_us
 weight: 0
-selection_criteria: {  }
+selection_criteria:
+  -
+    id: language
+    langcodes:
+      en: en
+    negate: false
+    context_mapping:
+      language: language_interface
 selection_logic: and
 static_context: {  }
