@@ -15,7 +15,7 @@ variant_settings:
   weight: 0
   layout: radix_boxton
   layout_settings: {  }
-  page_title: Services
+  page_title: Servicios
   storage_type: page_manager
   storage_id: ipe_services-panels_variant-1
   builder: ipe
@@ -26,7 +26,7 @@ selection_criteria:
   -
     id: language
     langcodes:
-      en: en
+      es: es
     negate: false
     context_mapping:
       language: language_interface

@@ -15,23 +15,38 @@ class IpePageMenuLinkDerivative extends DeriverBase {
    */
   public function getDerivativeDefinitions($base_plugin_definition) {
     $links = array();
+    $langcode = \Drupal::languageManager()->getCurrentLanguage()->getId();
+
+    if ($langcode != 'es' && $langcode != 'en') {
+      $langcode = 'en';
+    }
+
     $pages = [
-      'home' => 'Website main page',
-      'about_us' => 'Learn more about us',
-      'services' => 'Get to know our services',
+      'home' => [
+        'es' => ['Inicio', 'Página principal'],
+        'en' => ['Home', 'Website main page'],
+      ],
+      'about_us' => [
+        'es' => ['Nosotros', 'Aprenda más sobre nosotros'],
+        'en' => ['About us', 'Learn more about us'],
+      ],
+      'services' => [
+        'es' => ['Servicios', 'Conozca nuestros servicios'],
+        'en' => ['Services', 'Get to know our services'],
+      ],
     ];
+    $w = 0;
     foreach ($pages as $page_name => $description) {
       $page = Page::load('ipe_' . $page_name);
-      $w = 0;
       $route_name = 'page_manager.page_view_ipe_' . $page_name . '_ipe_' . $page_name . '-panels_variant-0';
       if ($page->status()) {
         $links['main_ipe' . $page->id()] = [
-            'title' => $page->label(),
-            'description' => $description,
-            'menu_name' => 'main',
-            'weight' => $w,
-            'route_name' => $route_name,
-          ] + $base_plugin_definition;
+          'title' => t($description[$langcode][0]),
+          'description' => t($description[$langcode][1]),
+          'menu_name' => 'main',
+          'weight' => $w,
+          'route_name' => $route_name,
+        ] + $base_plugin_definition;
       }
       $w++;
     }
