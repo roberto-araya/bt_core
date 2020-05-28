@@ -1,0 +1,9 @@
+bt_core.app:
+    path: '/app' 
+    defaults: 
+      _controller: '\Drupal\bt_core\Controller\AppController::content' 
+      _title: 'App Dashboard'
+    requirements: 
+      _permission: 'access content'
+    options:
+      _admin_route: TRUE

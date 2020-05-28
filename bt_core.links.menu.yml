@@ -1,7 +1,7 @@
 bt_panel_menu:
-  title: 'Dashboard'
+  title: 'App Dashboard'
   description: 'Dashboard Application'
-  route_name: page_manager.page_view_app_app-panels_variant-0
+  route_name: bt_core.app
   weight: -1
   menu_name: bt-menu-app
 
@@ -11,6 +11,3 @@ bt_contact_menu:
   route_name: contact.site_page
   weight: 9
   menu_name: main
-
-bt_core_ipe_pages_menu:
-  deriver: \Drupal\bt_core\Plugin\Derivative\IpePageMenuLinkDerivative
