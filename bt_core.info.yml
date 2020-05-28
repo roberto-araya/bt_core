@@ -3,7 +3,6 @@ description: 'This module serves as a basis for the development of multilingual 
 type: module
 core: 8.x
 dependencies:
-  - bt_layouts:bt_layouts
   - cacheflush:cacheflush
   - drupal:block
   - drupal:block_content
@@ -13,7 +12,6 @@ dependencies:
   - drupal:editor
   - drupal:entity_reference
   - drupal:field
-  - drupal:field_layout
   - drupal:file
   - drupal:forum
   - drupal:help
@@ -35,9 +33,6 @@ dependencies:
   - field_permissions:field_permissions
   - google_map_field:google_map_field
   - linkit:linkit
-  - page_manager:page_manager
-  - panelizer:panelizer
-  - panels:panels
   - pathauto:pathauto
   - radix_layouts:radix_layouts
   - tablefield:tablefield
