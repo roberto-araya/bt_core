@@ -37,4 +37,6 @@ dependencies:
   - radix_layouts:radix_layouts
   - tablefield:tablefield
   - webform:webform
+  - personas:personas
+  - bt_toolbar:bt_toolbar
 package: Btester

@@ -80,7 +80,6 @@
     "drupal/message_notify": "1.x-dev",
     "drupal/message_subscribe": "1.x-dev",
     "drupal/field_states_ui": "1.x-dev",
-    "drupal/better_formats": "1.x-dev",
     "drupal/views_flipped_table": "1.x-dev",
     "drupal/fpa": "2.x-dev",
     "drupal/tablefield": "2.x-dev",
@@ -98,6 +97,7 @@
     "drupal/media_entity_generic": "1.x-dev",
     "drupal/thunder_admin": "2.x",
     "drupal/address": "1.x-dev",
-    "drupal/radix_layouts": "4.x-dev"
+    "drupal/radix_layouts": "4.x-dev",
+    "drupal/bt_toolbar": "dev-dev"
   }
 }
