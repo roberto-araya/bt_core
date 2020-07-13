@@ -17,6 +17,7 @@
     "issues": "https://www.drupal.org/project/issues/bt_core",
     "source": "http://git.drupal.org/project/bt_core.git"
   },
+  "minimum-stability": "dev",
   "require": {
     "drupal/ctools": "3.x-dev",
     "drupal/monolog": "1.x-dev",
