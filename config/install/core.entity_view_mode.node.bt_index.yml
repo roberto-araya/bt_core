@@ -1,9 +1,0 @@
-langcode: en
-status: true
-dependencies:
-  module:
-    - node
-id: node.bt_index
-label: Index
-targetEntityType: node
-cache: true
