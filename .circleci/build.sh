@@ -7,7 +7,7 @@
 set -e
 
 echo "==> Validate composer"
-composer validate --ansi --strict
+#composer validate --ansi --strict
 
 [ -d build ] && echo "==> Remove existing build directory" && chmod -Rf 777 build && rm -rf build
 

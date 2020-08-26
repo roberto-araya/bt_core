@@ -6,7 +6,7 @@ use Drupal\Core\Cache\CacheableMetadata;
 use Drupal\Core\Config\ConfigFactoryOverrideInterface;
 
 /**
- *
+ * Override some configurations.
  */
 class ConfigCoreOverride implements ConfigFactoryOverrideInterface {
 
@@ -14,7 +14,7 @@ class ConfigCoreOverride implements ConfigFactoryOverrideInterface {
    * {@inheritdoc}
    */
   public function loadOverrides($names) {
-    $overrides = array();
+    $overrides = [];
     if (in_array('system.site', $names)) {
       // Set front page to "home".
       $overrides['system.site']['page']['front'] = '/home';

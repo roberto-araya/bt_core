@@ -1,1 +1,6 @@
 <?php
+
+/**
+ * @file
+ * Drupal module install file.
+ */

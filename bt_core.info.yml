@@ -2,6 +2,7 @@ name: Btester Core
 description: 'This module serves as a basis for the development of multilingual (en/es) Drupal 8 panel-based and personas-based applications and distributions.'
 type: module
 core: 8.x
+core_version_requirement: ^8
 dependencies:
   - cacheflush:cacheflush
   - drupal:block
@@ -28,7 +29,6 @@ dependencies:
   - courier:courier
   - entity_embed:entity_embed
   - entity_reference_revisions:entity_reference_revisions
-  - field_collection:field_collection
   - field_group:field_group
   - field_permissions:field_permissions
   - google_map_field:google_map_field

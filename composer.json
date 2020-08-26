@@ -17,12 +17,6 @@
     "issues": "https://www.drupal.org/project/issues/bt_core",
     "source": "http://git.drupal.org/project/bt_core.git"
   },
-  "repositories": {
-    "bt_toolbar": {
-        "type": "path",
-        "url": "dependencies/bt_toolbar"
-    }
-  },
   "minimum-stability": "dev",
   "require": {
     "drupal/ctools": "^3.4",
@@ -97,6 +91,6 @@
     "drupal/thunder_admin": "^3.4",
     "drupal/address": "^1.8",
     "drupal/radix_layouts": "^4.1",
-    "drupal/bt_toolbar": "dev-prueba"
+    "drupal/bt_toolbar": "dev-1.x"
   }
 }
