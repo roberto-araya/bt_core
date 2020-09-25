@@ -56,7 +56,6 @@
     "drupal/flysystem": "^2.0.0-alpha1",
     "drupal/field_group": "^3.1",
     "drupal/entity_print": "^2.2",
-    "drupal/rdfui": "^1.0-beta3",
     "drupal/responsive_menu": "^4.3.1",
     "drupal/google_analytics": "^3.1",
     "drupal/simple_sitemap": "^3.7",
