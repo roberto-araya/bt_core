@@ -82,7 +82,6 @@
     "drupal/twig_field_value": "^2.0.0",
     "drupal/computed_field": "^2.0",
     "drupal/amptheme": "^3.0",
-    "drupal/rut": "^1.6",
     "drupal/embed": "^1.4",
     "drupal/entity_embed": "^1.1",
     "drupal/entityform_block": "^1.0-alpha2",
@@ -90,6 +89,9 @@
     "drupal/thunder_admin": "^3.4",
     "drupal/address": "^1.8",
     "drupal/radix_layouts": "^4.1",
-    "drupal/bt_toolbar": "dev-1.x"
+    "drupal/bt_toolbar": "dev-1.x",
+    "drupal/auto_entitylabel": "^2.1@beta",
+    "drupal/permissions_filter": "^1.0",
+    "drupal/twig_tweak": "^2.7"
   }
 }

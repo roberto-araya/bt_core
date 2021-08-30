@@ -38,5 +38,8 @@ dependencies:
   - tablefield:tablefield
   - webform:webform
   - personas:personas
+  - auto_entitylabel:auto_entitylabel
+  - permissions_filter:permissions_filter
+  - twig_tweak:twig_tweak
   - bt_toolbar:bt_toolbar
 package: Btester
