@@ -41,6 +41,5 @@ dependencies:
   - permissions_filter:permissions_filter
   - twig_tweak:twig_tweak
   - dynamic_entity_reference:dynamic_entity_reference
-  - text:text
   - bt_toolbar:bt_toolbar
 package: Btester
