@@ -39,7 +39,7 @@
     "drupal/entity_print": "^2.2",
     "drupal/google_analytics": "^3.1",
     "drupal/simple_sitemap": "^4.0.0-alpha2",
-    "drupal/courier": "^2.0-alpha10",
+    "drupal/dynamic_entity_reference": "^2.0-alpha15",
     "drupal/role_delegation": "^1.1",
     "drupal/content_access": "^1.0-alpha2",
     "drupal/name": "^1.0-rc2",
