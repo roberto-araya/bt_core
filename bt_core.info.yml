@@ -35,7 +35,7 @@ dependencies:
   - pathauto:pathauto
   - tablefield:tablefield
   - webform:webform
-  - personas:personas
+  - bt_personas:bt_personas
   - auto_entitylabel:auto_entitylabel
   - permissions_filter:permissions_filter
   - twig_tweak:twig_tweak
