@@ -11,3 +11,24 @@ bt_contact_menu:
   route_name: contact.site_page
   weight: 9
   menu_name: main
+
+bt_user_permissions:
+  title: 'Permissions'
+  description: 'Manage user permissions.'
+  route_name: user.admin_permissions
+  parent: entity.user.collection
+  weight: -100
+
+bt_user_roles:
+  title: 'Roles'
+  description: 'Manage user roles.'
+  route_name: entity.user_role.collection
+  parent: entity.user.collection
+  weight: 90
+
+bt_user_personas:
+  title: 'Personas'
+  description: 'Manage user personas.'
+  route_name: entity.persona.collection
+  parent: entity.user.collection
+  weight: 100
