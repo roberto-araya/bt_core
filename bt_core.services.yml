@@ -1,6 +1,0 @@
-services:
-  bt_core.overrider:
-    class: Drupal\bt_core\Config\ConfigCoreOverride
-    arguments: ['@config.storage', '@event_dispatcher', '@config.typed']
-    tags:
-      - {name: config.factory.override, priority: 25}
