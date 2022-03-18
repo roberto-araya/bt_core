@@ -1,0 +1,11 @@
+multifield.type_add:
+  route_name: entity.multifield_type.add_form
+  title: 'Add multifield type'
+  appears_on:
+    - entity.multifield_type.collection
+
+multifield.add_page:
+  route_name: entity.multifield.add_page
+  title: 'Add multifield'
+  appears_on:
+    - entity.multifield.collection

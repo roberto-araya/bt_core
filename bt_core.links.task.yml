@@ -1,0 +1,26 @@
+entity.multifield.view:
+  title: View
+  route_name: entity.multifield.canonical
+  base_route: entity.multifield.canonical
+entity.multifield.edit_form:
+  title: Edit
+  route_name: entity.multifield.edit_form
+  base_route: entity.multifield.canonical
+entity.multifield.delete_form:
+  title: Delete
+  route_name: entity.multifield.delete_form
+  base_route: entity.multifield.canonical
+  weight: 10
+#entity.multifield.collection:
+#  title: Multifield
+#  route_name: entity.multifield.collection
+#  base_route: system.admin_content
+#  weight: 10
+entity.multifield_type.edit_form:
+  title: Edit
+  route_name: entity.multifield_type.edit_form
+  base_route: entity.multifield_type.edit_form
+entity.multifield_type.collection:
+  title: List
+  route_name: entity.multifield_type.collection
+  base_route: entity.multifield_type.collection

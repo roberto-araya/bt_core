@@ -5,6 +5,37 @@
  * Drupal module file.
  */
 
+use Drupal\Core\Render\Element;
+
+/**
+ * Implements hook_theme().
+ */
+function bt_core_theme() {
+  return [
+    'multifield' => [
+      'render element' => 'elements',
+    ],
+  ];
+}
+
+/**
+ * Prepares variables for multifield templates.
+ *
+ * Default template: multifield.html.twig.
+ *
+ * @param array $variables
+ *   An associative array containing:
+ *   - elements: An associative array containing the multifield
+ *     information and any
+ *     fields attached to the entity.
+ *   - attributes: HTML attributes for the containing element.
+ */
+function template_preprocess_multifield(array &$variables) {
+  foreach (Element::children($variables['elements']) as $key) {
+    $variables['content'][$key] = $variables['elements'][$key];
+  }
+}
+
 /**
  * Implements hook_menu_links_discovered_alter().
  */

@@ -25,3 +25,15 @@ bt_user_personas:
   route_name: entity.persona.collection
   parent: entity.user.collection
   weight: 100
+
+entity.multifield_type.collection:
+  title: 'Multifield types'
+  parent: system.admin_structure
+  description: 'Manage and CRUD actions on Multifield type.'
+  route_name: entity.multifield_type.collection
+
+entity.multifield.collection:
+  title: 'Multifield'
+  parent: system.admin_structure
+  description: 'Manage and CRUD actions on Multifield.'
+  route_name: entity.multifield.collection

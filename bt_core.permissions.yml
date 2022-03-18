@@ -1,0 +1,14 @@
+administer multifield types:
+  title: 'Administer multifield types'
+  description: 'Maintain the types of multifield entity.'
+  restrict access: true
+access multifield overview:
+  title: 'Access multifield overview page'
+delete multifield:
+  title: Delete multifield
+create multifield:
+  title: Create multifield
+view multifield:
+  title: View multifield
+edit multifield:
+  title: Edit multifield
