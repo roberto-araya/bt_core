@@ -40,4 +40,5 @@ dependencies:
   - twig_tweak:twig_tweak
   - dynamic_entity_reference:dynamic_entity_reference
   - bt_toolbar:bt_toolbar
+  - paragraphs:paragraphs
 package: Btester

@@ -65,9 +65,12 @@ class MultifieldTypeForm extends BundleEntityFormBase {
    * {@inheritdoc}
    */
   public function save(array $form, FormStateInterface $form_state) {
+    $message = '';
     $entity_type = $this->entity;
 
+    // @phpstan-ignore-next-line
     $entity_type->set('id', trim($entity_type->id()));
+    // @phpstan-ignore-next-line
     $entity_type->set('label', trim($entity_type->label()));
 
     $status = $entity_type->save();
@@ -82,6 +85,7 @@ class MultifieldTypeForm extends BundleEntityFormBase {
     $this->messenger()->addStatus($message);
 
     $form_state->setRedirectUrl($entity_type->toUrl('collection'));
+    return '';
   }
 
 }

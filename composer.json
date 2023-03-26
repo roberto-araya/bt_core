@@ -61,6 +61,7 @@
     "drupal/auto_entitylabel": "^3.0-beta4",
     "drupal/permissions_filter": "^1.0",
     "drupal/twig_tweak": "^2.7",
-    "drupal/bt_toolbar": "^2.0.0"
+    "drupal/bt_toolbar": "^2.0.0",
+    "drupal/paragraphs": "^1.15"
   }
 }
