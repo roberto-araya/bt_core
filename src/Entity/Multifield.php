@@ -2,12 +2,12 @@
 
 namespace Drupal\bt_core\Entity;
 
+use Drupal\bt_core\MultifieldInterface;
 use Drupal\Core\Entity\ContentEntityBase;
 use Drupal\Core\Entity\EntityChangedTrait;
 use Drupal\Core\Entity\EntityStorageInterface;
 use Drupal\Core\Entity\EntityTypeInterface;
 use Drupal\Core\Field\BaseFieldDefinition;
-use Drupal\bt_core\MultifieldInterface;
 use Drupal\user\UserInterface;
 
 /**
