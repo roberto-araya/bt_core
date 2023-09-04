@@ -62,12 +62,12 @@ function bt_core_menu_local_tasks_alter(&$data, $route_name) {
     $data['tabs'][0]['entity.user.contact_form']['#weight'] = 4;
 
     if ($cuid == $uid) {
-      $data['tabs'][0]['entity.user.canonical']['#link']['title'] = 'My account';
-      $data['tabs'][0]['entity.user.edit_form']['#link']['title'] = 'Edit my account';
+      $data['tabs'][0]['entity.user.canonical']['#link']['title'] = t('My account');
+      $data['tabs'][0]['entity.user.edit_form']['#link']['title'] = t('Edit my account');
     }
     else {
-      $data['tabs'][0]['entity.user.canonical']['#link']['title'] = 'User account';
-      $data['tabs'][0]['entity.user.edit_form']['#link']['title'] = 'Edit user account';
+      $data['tabs'][0]['entity.user.canonical']['#link']['title'] = t('User account');
+      $data['tabs'][0]['entity.user.edit_form']['#link']['title'] = t('Edit user account');
     }
   }
 
