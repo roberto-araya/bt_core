@@ -1,7 +1,7 @@
 name: Btester Core
 description: 'This module serves as a basis for the development of multilingual (en/es) Drupal 8 panel-based and personas-based applications and distributions.'
 type: module
-core_version_requirement: ^9.2
+core_version_requirement: ~9.4.0
 dependencies:
   - drupal:block
   - drupal:block_content
